@@ -1,5 +1,6 @@
 *{
     margin:0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .app {
@@ -7,15 +8,21 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+&__title {
+    margin-top: 10px;
+}
 }
 
 .list {
     display: flex;
     flex-wrap: wrap;
     
+    
 }
 
 .pokemon {
+    background-color: #CAF6F3;
+    margin: 10px;
     padding: 10px;
     border: 1px solid grey;
     border-radius: 5%;
@@ -25,14 +32,17 @@ align-items: center;
     align-items: center;
     &__type{
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
+        align-content: flex-start;
         padding: 0;
         list-style: none;
         &--item {
-            padding-right: 10px;
+            padding: 5px;
+            margin-right: 5px;
             color:white;
             background-color: grey;
             border-radius: 25%;
+            
             
 
         }
