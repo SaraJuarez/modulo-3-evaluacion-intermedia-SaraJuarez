@@ -1,0 +1,2 @@
+*{margin:0}.app{flex-direction:column;justify-content:center;align-items:center}.app,.list{display:flex}.list{flex-wrap:wrap}.pokemon{padding:10px;border:1px solid grey;border-radius:5%;flex-direction:column;align-items:center}.pokemon,.pokemon__type{display:flex;justify-content:center}.pokemon__type{padding:0;list-style:none}.pokemon__type--item{padding-right:10px;color:#fff;background-color:grey;border-radius:25%}
+/*# sourceMappingURL=main.8ee518fb.chunk.css.map */
